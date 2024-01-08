@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8354f213-6269-4ff9-bd3f-de5dd95602d6" name="aws" url="http://20.163.48.98">
+        <fileTransfer rootFolder="/home/azure/deploy" accessType="SFTP" host="20.163.49.98" port="22" sshConfigId="66e2eed5-b957-408e-9f81-bb5854c3103c" sshConfig="azure@20.163.49.98:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
